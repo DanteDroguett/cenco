@@ -2,14 +2,11 @@
 
 <a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
 
-✨ Your new, shiny [Nx workspace](https://nx.dev) is almost ready ✨.
-
-[Learn more about this workspace setup and its capabilities](https://nx.dev/getting-started/tutorials/npm-workspaces-tutorial?utm_source=nx_project&amp;utm_medium=readme&amp;utm_campaign=nx_projects) or run `npx nx graph` to visually explore what was created. Now, let's get you up to speed!
 
 
 
-Introducción
-Este proyecto que utiliza React para el frontend y NestJS para el backend. acontinuación se explica cómo instalar las dependencias y ejecutar el proyecto.
+## Introducción
+Este proyecto utiliza React para el frontend y NestJS para el backend. acontinuación se explica cómo instalar las dependencias y ejecutar el proyecto.
 
 Requisitos Previos
 Asegúrate de tener instalados los siguientes programas en tu sistema:
@@ -17,7 +14,7 @@ Asegúrate de tener instalados los siguientes programas en tu sistema:
 Node.js (versión recomendada: 18.x o superior)
 npm (viene con Node.js)
 
-Instalación de Dependencias
+## Instalación de Dependencias
 1. Clonar el Repositorio
 Primero, clona el repositorio del proyecto:
 git clone https://github.com/DanteDroguett/cenco.git
@@ -26,7 +23,7 @@ git clone https://github.com/DanteDroguett/cenco.git
 cd my-fullstack-app
 npm install
 
-Ejecución del Proyecto
+## Ejecución del Proyecto
 1. Ejecutar el Backend
 Para iniciar el backend navega al directorio raiz  y ejecuta el siguiente comando:
 
