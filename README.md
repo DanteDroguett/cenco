@@ -23,6 +23,8 @@ git clone https://github.com/DanteDroguett/cenco.git
 2. Instalar Dependencias 
 ```
 cd my-fullstack-app
+```
+```
 npm install
 ```
 ## Ejecución del Proyecto
@@ -30,15 +32,17 @@ npm install
 Para iniciar el backend navega al directorio raiz  y ejecuta el siguiente comando:
 ```
 nx serve backend
-Esto iniciará el servidor en http://localhost:3000 por defecto.
 ```
+Esto iniciará el servidor en http://localhost:3000 por defecto.
+
 
 2. Ejecutar el Frontend
 Para iniciar el frontend de React, en el directorio raiz ejecuta el siguiente comando:
 ```
 nx serve frontend
-Esto iniciará el servidor en http://localhost:4200 por defecto.
 ```
+Esto iniciará el servidor en http://localhost:4200 por defecto.
+
 
 
 ## Finish your CI setup
