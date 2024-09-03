@@ -57,13 +57,13 @@ const App = () => {
   const [products, setProducts]: any = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:3000/api/products') // URL completa
+    fetch('http://localhost:3000/api/products') 
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, []);
 
   const addProduct = (product: any) => {
-    fetch('http://localhost:3000/api/products', { // URL completa
+    fetch('http://localhost:3000/api/products', { 
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(product),
@@ -73,7 +73,7 @@ const App = () => {
   };
 
   const deleteProduct = (id: any) => {
-    fetch(`http://localhost:3000/api/products/${id}`, { method: 'DELETE' }) // URL completa
+    fetch(`http://localhost:3000/api/products/${id}`, { method: 'DELETE' }) 
       .then(() => setProducts(products.filter((product: any) => product._id !== id)));
   };
 
